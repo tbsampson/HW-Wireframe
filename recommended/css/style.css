@@ -207,7 +207,8 @@ a.hovertext {
     content: attr(title);
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: -242px;
+    height:25px;
     padding: 0.5em 20px;
     width: 124px;
     background:#4aaaa5;

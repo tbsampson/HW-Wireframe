@@ -45,7 +45,7 @@ header, .nav, .aside, .sect, .sub-article, h1, h2, h3, footer {
 .nav, header, footer {
     flex: 1;
     width: 960px;
-    max-height: 10vh;
+    max-height: 50px;
 }
 
 header {
@@ -76,7 +76,6 @@ footer {
     background-color: #777;
     color: #ebebeb;
     text-align: center;
-    min-height: 40vh;
 }
 
 .sub-article {
