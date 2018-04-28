@@ -1,0 +1,309 @@
+/* Style sheet 1 for Week 1 homework project: HW-Wireframe */
+@import url('https://fonts.googleapis.com/css?family=Bangers');
+@import url('https://fonts.googleapis.com/css?family=Bubblegum+Sans');
+
+.logo {
+    content:url("../images/logo2.png")
+}
+
+.homePic{
+	content:url("https://d1466nnw0ex81e.cloudfront.net/n_iv/600/683771.jpg");
+	width: 200px;
+	box-shadow: 5px 5px 10px #2d2b00;
+}
+
+.selfie {
+	content:url("https://www.dccomics.com/sites/default/files/files/character-pops/superman_459Wx300H_589104907a0b05.70849485.png");
+	width: 250px;
+	float: left;
+}
+
+.selfie2 {
+	content:url("https://i.pinimg.com/564x/aa/4d/df/aa4ddfd4b5f6ea67163f0c2906d6f1f2.jpg");
+	width: 160px;
+	float: left;
+	box-shadow: 5px 5px 10px #2d2b00;
+	margin-right: 20px;
+}
+
+.pf1 {
+	content:url("https://d1466nnw0ex81e.cloudfront.net/n_iv/600/683771.jpg");
+}
+
+.pf2 {
+	content:url("https://i.pinimg.com/736x/29/07/b1/2907b12e4c3356fd97cde1e7578d0249--superman-images-superman-art.jpg");
+}
+
+.pf3 {
+	content:url("http://www.posterworx.co.nz/ic/3269758831/PP32097.jpg");
+}
+
+.pf4 {
+	content:url("https://i.pinimg.com/474x/7f/d5/54/7fd554d3e60ef822b1d347dd6cb77b3c--comic-book-covers-dc-comic.jpg");
+}
+
+.pf5 {
+	content:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToAWIugeJ66SQKXL4n70vqMYRFYojzmqwjnfHGwuQpCy9xVVFD");
+}
+
+.pf6 {
+	content:url("https://i.pinimg.com/originals/a0/84/8d/a0848dea18d36aeab3d4cfe3cb00a716.jpg");
+}
+
+.pf7 {
+	content:url("https://nerdist.com/wp-content/uploads/2014/09/DC-COMICS-BATMAN-SUPERMAN-14-SELFIE-VARIANT-COVER.jpg");
+}
+
+.pf8 {
+	content:url("https://imgix.ranker.com/user_node_img/50030/1000583200/original/superman-76-photo-u1?w=650&q=50&fm=jpg&fit=crop&crop=faces");
+}
+
+.pf9 {
+	content:url("https://i.pinimg.com/originals/bb/92/1f/bb921f2b240d47b197fc96501e72bd0d.jpg");
+}
+
+.pf10 {
+	content:url("https://i.pinimg.com/originals/3f/2d/8d/3f2d8d2bbd02711d1e56a7963f698715.jpg");
+}
+
+.pf11 {
+	content:url("http://comicbookrealm.com/cover-scan/69d24b113d19ba12c9a77e2c34eb57c7/xl/dc-comics-superman-a-celebration-of-75-years-hard-cover-1.jpg");
+}
+
+.pf12 {
+	content:url("https://vignette.wikia.nocookie.net/marvel_dc/images/2/2d/Superman_v.2_154.jpg/revision/latest?cb=20120825201348");
+}
+
+.pf13 {
+	content:url("http://2.media.collegehumor.cvcdn.com/66/29/1acd9aeeb1ae09d487dcca4f4a0c7316.jpg");
+}
+
+.pf14 {
+	content:url("http://www.coverbrowser.com/image/lois-lane/110-1.jpg");
+}
+
+.pf15 {
+	content:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyN2IDuAbHno2u8toEdyhMj9FML17wB1tsIUfhC6d2iclv9kNlqg");
+}
+
+.pf16 {
+	content:url("http://farm9.static.flickr.com/8739/16895025508_9f6fcd2133.jpg");
+}
+
+#pf {
+	width: 100px;
+	height: 135px;
+	box-shadow: 2px 2px 4px #2d2b00;
+	transition: box-shadow linear 0.3s;
+}
+
+#pf:hover {
+	box-shadow: 5px 5px 10px #2d2b00;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 18pt;
+    color: #224b91;
+	background: linear-gradient(#3b337c, #110833);
+	background: -webkit-linear-gradient(#3b337c, #110833);
+	background: -o-linear-gradient(#3b337c, #110833);
+	background: -moz-linear-gradient(#3b337c, #110833);    
+}
+
+.header {
+	margin: 10px auto 15px auto;
+	padding: 0px;
+	width: 1000px;
+	height: 100px;
+	line-height: 80px;
+	border-radius: 50px 50px 10px 10px;
+    box-shadow: 5px 5px 10px #2d2b00;
+	background: linear-gradient(#ef9644, #fff509);
+	background: -webkit-linear-gradient(#ef9644, #fff509);
+	background: -o-linear-gradient(#ef9644, #fff509);
+	background: -moz-linear-gradient(#ef9644, #fff509);      
+}
+
+.main {
+	margin: 10px auto 10px auto;
+	padding: 20px;
+	width: 960px;
+	height: 290px;
+	border-radius: 10px 10px 10px 10px;	
+	box-shadow: 5px 5px 10px #2d2b00;
+	background: linear-gradient(#fff9d9, #dec292);
+	/*
+	background: linear-gradient(#fff509, #dad806);
+	background: -webkit-linear-gradient(#fff509, #dad806);
+	background: -o-linear-gradient(#fff509, #dad806);
+	background: -moz-linear-gradient(#fff509, #dad806);      
+	*/
+}
+
+.footer {
+	font-family: 'Bubblegum Sans', cursive;
+	font-size: 12pt;
+	text-align: center;
+    color: #224b91;
+	margin: 0px auto 10px auto;
+	padding: 0px;
+	width: 1000px;
+	height: 100px;
+	line-height: 50px;
+	border-radius: 10px 10px 50px 50px;
+    box-shadow: 5px 5px 10px #2d2b00;
+	background: linear-gradient(#fff509, #ef9644);
+	background: -webkit-linear-gradient(#fff509, #ef9644);
+	background: -o-linear-gradient(#fff509, #ef9644);
+	background: -moz-linear-gradient(#fff509, #ef9644);      
+}
+.column {
+    float: left;
+}
+
+.section {
+	float: left;
+    width: 80%;
+}
+
+.aside {
+	float: left;
+    width: 20%;
+}
+
+h1 {
+	font-family: 'Bangers', cursive;
+	color: #f70003; 
+    padding: 0px;
+    margin: 10px;
+    vertical-align:top;
+    font-size: 75px;
+	letter-spacing: 3px;
+  	text-shadow: 2px 2px 2px #000;
+  	transition: text-shadow linear 0.3s;
+}
+h1:hover {
+	text-shadow: 1px 1px 1px #000;
+}
+
+h2 {
+	font-family: 'Bangers', cursive;
+	color: #f70003; 
+	padding: 0px;
+	margin: 10px;
+    vertical-align:top;
+    font-size: 52px;
+	letter-spacing: 1px;
+  	text-shadow: 1px 1px 1px #000;
+}
+ul {
+	padding-left: 20px;
+}
+li {
+	font-size: 12pt;
+}
+td {
+	padding:0px 8px 0px 10px;
+}
+.logo {
+	position: relative;
+	top: 0px;
+	bottom: 0px;
+    margin-left: 0px;
+    left: 0px;
+	height: 100px;
+	width: 100px;
+	transition: linear 5s;
+}
+
+.title {
+	padding-left: 0px;	
+	width: 320px;
+	height: 60px;
+    margin-right: 0px;
+    margin-left: 0px;
+	padding-right: 0px;
+	display: inline-block;
+}
+
+.btnNav {
+	font-family: 'Bangers', cursive;
+	border-radius: 5px;
+	outline: none;
+	height: 60px;
+	text-decoration: none;
+	color: #f70003; 
+	margin: 5px;
+	padding: 5px;
+    vertical-align:top;	
+	font-size: 52px;
+	letter-spacing: 1px;
+  	text-shadow: 2px 2px 2px #000;
+  	transition: text-shadow linear 0.3s;
+  	display: inline-block;
+}
+
+.btnNav:hover {
+	text-shadow: 1px 1px 1px #000;
+}
+
+.logo:hover {
+ 	-webkit-transform: rotate(1080deg);
+}
+
+.article {
+	width: 750px;
+}
+
+.contact-form {
+	width:75%;
+}
+td {
+	text-align: right;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 10px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 2px; /* Add a top margin */
+    margin-bottom: 2px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #f70003;
+    color: white;
+    padding: 12px 10px;
+    border: none;
+    border-radius: 4px;
+	cursor: pointer;
+	box-shadow: 2px 2px 4px #2d2b00;
+	transition: box-shadow linear 0.3s;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+	box-shadow: 1px 1px 2px #2d2b00;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
