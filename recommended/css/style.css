@@ -14,6 +14,10 @@ body {
     height: 100%;
 }
 
+p {
+    color: #ccc;
+}
+
 h1, h2, h3 {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
@@ -30,6 +34,7 @@ h3 {
     color:#4aaaa5;
     font-size: 20pt;
     display:block;
+    margin-left: 10px;
 }
 
 header, .article, .aside, .section, footer {
@@ -74,6 +79,10 @@ a {
     line-height: 60px;
     margin: 10px;
     padding: 10px;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;    
 }
 
 .btnNav:hover {
@@ -81,6 +90,10 @@ a {
     height: 60px;
     line-height: 60px;
     color: #fff;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;    
 
 }
 
@@ -106,6 +119,9 @@ a {
     text-align: left;
     justify-content: center;
     background-color: #fff;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-right: 20px;
 }
 
 footer {
@@ -124,36 +140,121 @@ footer {
     flex: 1;
     display: flex;
     flex-direction: column;
-    padding-left: 30px;
-    padding-right: 30px;
     background-color: #777;
     color: #ebebeb;
     text-align: center;
     min-height: 40vh;
+    margin-left: 24px;
 }
 
 .sub-article {
-    width: 880px;
+    width: 920px;
     flex-direction: row;
     flex: 1;
     text-align: center;
     line-height: 8vh;
-    min-height: 8vh;    
+    min-height: 8vh;
+    margin-left: 24px;
 }
 
 .section {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   margin-left: 0px;
-  flex: 2 0 0;
+  flex: 1;
   height: 50vh;
 }
 
-.aside {
-    display: flex;
-    flex-direction: column;
-    margin-right: 0px;
-    flex: 1 0 0;    
-    height: 50vh;   
+.borderBot {
+    border-bottom: 4px solid #ccc;
+    width: 900px;
 }
 
+#pf {
+    height: 240px;
+    width: 162px;
+	float: left;
+	box-shadow: 5px 5px 10px #ccc;
+	margin-right: 20px;
+}
+
+.selfie {
+    content:url("https://i.pinimg.com/564x/b4/f1/90/b4f190011558c0479774cdec97190d10.jpg");
+}
+.pf1 {
+    content:url("https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg");
+}
+.pf2 {
+    content:url("https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg");
+}
+.pf3 {
+    content:url("https://images.pexels.com/photos/38554/girl-people-landscape-sun-38554.jpeg");
+}
+.pf4 {
+    content:url("https://images.pexels.com/photos/532220/pexels-photo-532220.jpeg");
+}
+.pf5 {
+    content:url("https://images.pexels.com/photos/36483/aroni-arsa-children-little.jpg");
+}
+
+a.hovertext {
+    position: relative;
+    width: 124x;
+    text-decoration: none !important;
+    text-align: center;
+  }
+  a.hovertext::after {
+    content: attr(title);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 0.5em 20px;
+    width: 124px;
+    background:#4aaaa5;
+    text-decoration: none !important;
+    color: #fff;
+    opacity: 0;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+  }
+  a.hovertext:hover::after, a.hovertext:focus::after {
+    opacity: 1.0;
+  }
+
+  .contact-form {
+	width:75%;
+}
+td {
+	text-align: right;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 10px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 2px; /* Add a top margin */
+    margin-bottom: 2px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 10px;
+    border: none;
+    border-radius: 4px;
+	cursor: pointer;
+	box-shadow: 2px 2px 4px #2d2b00;
+	transition: box-shadow linear 0.3s;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+	box-shadow: 1px 1px 2px #2d2b00;
+}

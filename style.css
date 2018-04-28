@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Bubblegum+Sans');
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Bubblegum Sans', cursive;
+    color: #fff9d9;
+	background: linear-gradient(#3b337c, #110833);
+	background: -webkit-linear-gradient(#3b337c, #110833);
+	background: -o-linear-gradient(#3b337c, #110833);
+	background: -moz-linear-gradient(#3b337c, #110833);    
+}
+a {
+    text-decoration: none;
+    color: #fff509;
+}
+table {
+    width: 450px;
+}
+td {
+    width:150px;
+    text-align: center;
+}
