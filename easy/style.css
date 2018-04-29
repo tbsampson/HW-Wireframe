@@ -1,4 +1,8 @@
 /* Easy homework assignment due 4/30/2018 Tom Sampson */
+* {
+    min-width: 275px;
+}
+
 body {
     background-color: #777;
     font-family: Helvetica, sans-serif;
@@ -24,11 +28,11 @@ header, footer, .nav {
     flex: 1;
 }
 
-@media (min-width: 600px) { /* Only show sections side-by-side if there is enough room */
+@media (min-width: 750px) { /* Only show sections side-by-side if there is enough room */
     .main {
-        max-width: 990px;
+        max-width: 980px;
         justify-content: space-around;
-        padding: 0 5px 0 5px;
+        padding: 0 auto 0 auto;
     }
     
     .sect {
@@ -37,31 +41,51 @@ header, footer, .nav {
         justify-content: space-around;
         align-self: stretch;    
         text-align: justify;
-        margin: 0px 5px 0px 5px;
+        margin: 0px auto 0px auto;
         padding: 20px;
         flex: 1;
     }
+
+    /* Create some space between (right/left when wide enough) */
+    .sect:first-child {
+        margin-right: 5px;
+    }
+
+    .sect:last-child {
+        margin-left: 5px;
+    }
+
   }
 
-  @media (max-width: 599px) { /* If too narrow, stack sections instead of side-by-side */
+  @media (max-width: 749px) { /* If too narrow, stack sections instead of side-by-side */
     .main {
-        max-width: 500px;
+        max-width: 749px;
         justify-content: space-between;
         flex-direction: column;
-        padding: 0 5px 0 5px;
+        padding: 0 auto 0 auto;
     }
     
     .sect {
-        max-width: 480px;
+        max-width: 749px;
         background-color: #ebebeb;
         flex-direction: column;
         justify-content: space-between;
         align-self: stretch;    
         text-align: justify;
-        margin: 0px 5px 0px 5px;
+        margin: 0px auto 0px auto;
         padding: 20px; /* make room for sections with and w/o articles */
         flex: 1;
     }
+
+    /* Create some space between (bottom/top when wide narrow) */
+    .sect:first-child {
+        margin-bottom: 5px;
+    }
+
+    .sect:last-child {
+        margin-top: 5px;
+    }
+
   }  
 
 .article {
