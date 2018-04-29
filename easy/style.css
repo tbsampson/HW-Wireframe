@@ -24,6 +24,11 @@ header, footer, .nav {
     flex: 1;
 }
 
+#note {
+    color: red;
+    font-weight: bold;
+}
+
 @media (min-width: 750px) { /* Only show sections side-by-side if there is enough room */
     .main {
         max-width: 980px;
